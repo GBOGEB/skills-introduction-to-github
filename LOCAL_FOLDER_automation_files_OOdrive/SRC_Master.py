@@ -33,6 +33,7 @@ except ModuleNotFoundError as e:
 def main():
     if len(sys.argv) < 2:
         print("Usage: master.py <command> [arguments]")
+        
         sys.exit(1)
 
     command = sys.argv[1]

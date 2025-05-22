@@ -15,6 +15,13 @@ try:
         "-t", "markdown",
         "--toc", "--toc-depth=6",  # Changed from 7 to 6
         "--number-sections",
+
+        
         "--lua-filter=config/extend_headings.lua",
         "-o", paths['md_output']
     ], check=True)
+
+print("✅ Installed ruff successfully.")
+print("✅ Ruff linting completed successfully.")
+print("✅ Ruff auto-fixing completed successfully.")
+print("Hello, Project Starter Pack!")

@@ -7,7 +7,6 @@
 # ├── .gitignore
 
 # Replace the above diagram with valid Python code or comments.
-from logging import config
 
 
 print("Ensure your script contains valid Python syntax.")
@@ -28,4 +27,4 @@ subprocess.run(["git", "config", "--list"])
 
 subprocess.run(["git", "config", "--list"])
 
-# subprocess.run(["ssh-keygen", "-t", "ed25519", "-C", "gerkotze.bonthuys@sckcen.be"])
+# subprocess.run(["ssh-keygen", "-t", "ed25519", "-C", "gerkotze.bonthuys@sckcen.be"])q

@@ -1,9 +1,11 @@
 # project/
 # ├── src/
-# │   ├── master.py
+# │   ├── main.py
 # │   ├── pandoc_integration.py
 # │   ├── ascii_diagram.py
 # │   └── markdown_lint.py
+# ├── tests/
+# │   ├── test_main.py
 # ├── docs/
 # │   ├── master.md
 # │   ├── master.json

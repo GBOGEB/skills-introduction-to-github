@@ -26,10 +26,35 @@
 
 # Main entry point for the project
 
+import subprocess
+
+def run_ruff():
+    """
+    Install and run ruff for linting and auto-fixing.
+    """
+    try:
+        # Install ruff
+        subprocess.run(["python", "-m", "pip", "install", "ruff"], check=True)
+        print("✅ Installed ruff successfully.")
+
+        # Run ruff to check for linting issues
+        subprocess.run(["ruff", "check", "."], check=True)
+        print("✅ Ruff linting completed successfully.")
+
+        # Run ruff to auto-fix issues
+        subprocess.run(["ruff", "check", ".", "--fix"], check=True)
+        print("✅ Ruff auto-fixing completed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error during ruff execution: {e}")
+
 def main():
     print("Hello, Project Starter Pack!")
 
 if __name__ == "__main__":
+    # Run ruff linting and fixing
+    run_ruff()
+
+    # Run the main application
     main()
 
 # tests/test_main.py
@@ -74,16 +99,3 @@ class TestMain(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(exit=False)  # Prevent unittest from exiting the program
-
-# .gitignore
-
-# Add the following entries to the `.gitignore` file:
-
-# Byte-compiled files
-# __pycache__/
-
-# Environment files
-# .env
-
-# Test coverage reports
-# .coverage
