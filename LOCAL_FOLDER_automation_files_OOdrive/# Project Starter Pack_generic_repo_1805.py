@@ -1,5 +1,5 @@
 # Ensure the file is located at:
-C:/Users/gbonthuy/Documents/ProjectStarterPack/# Project Starter Pack_generic_repo_1805.py
+# C:/Users/gbonthuy/Documents/ProjectStarterPack/# Project Starter Pack_generic_repo_1805.py
 
 # Project Starter Pack
 
@@ -14,7 +14,7 @@ C:/Users/gbonthuy/Documents/ProjectStarterPack/# Project Starter Pack_generic_re
 
 # Create the project structure
 # mkdir src tests
-# touch src/main.py tests/test_main.py README.md .gitignore
+# touch src/__init__.py src/main.py tests/test_main.py README.md .gitignore
 
 # Add files to Git and make the first commit
 # git add .
@@ -39,7 +39,31 @@ if __name__ == "__main__":
 # Test file for main.py
 
 import unittest
-from src.main import main
+import sys
+import os
+
+# Add the parent directory to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Navigate to your project root directory
+project_path = r'C:\Users\gbonthuy\OneDrive - Studiecentrum voor Kernenergie\Documents\GitHub\LOCAL_FOLDER_automation_files_OOdrive'
+if os.path.exists(project_path):
+    os.chdir(project_path)
+else:
+    print(f"Error: The directory '{project_path}' does not exist.")
+    exit(1)
+
+# Ensure proper Python package structure
+# touch src/__init__.py
+
+# Run the main application
+# python -m src.main
+
+# Run the tests
+# python -m unittest tests/test_main.py
+
+# If you're having import issues, you can also try running tests with PYTHONPATH set
+# PYTHONPATH=. python -m unittest tests/test_main.py
 
 class TestMain(unittest.TestCase):
     def test_main_output(self):
@@ -49,7 +73,7 @@ class TestMain(unittest.TestCase):
         self.assertIn("Hello, Project Starter Pack!", captured.output[0])
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(exit=False)  # Prevent unittest from exiting the program
 
 # .gitignore
 
