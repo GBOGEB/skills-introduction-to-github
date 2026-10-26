@@ -61,3 +61,27 @@ In this exercise, you will:
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+# Create README.md if it doesn't exist
+@"
+# Downloads Organization System
+
+This repository contains scripts to automatically organize downloaded files by file type.
+
+## Features
+
+- Sorts files into appropriate category folders (Documents, Images, etc.)
+- Creates a structured folder hierarchy
+- Handles file naming conflicts
+- Easy one-click operation via batch file
+
+## How to Use
+
+1. Double-click \`organize_downloads.bat\`
+2. Wait for the organization to complete
+3. Press any key to exit
+"@ | Out-File -FilePath README.md -Encoding utf8
+
+# Add, commit, and push
+git add README.md
+git commit -m "Add README"
+git push
