@@ -1,63 +1,89 @@
-<img src="https://octodex.github.com/images/welcometocat.png" align="right" height="250px" />
+# skills-introduction-to-github — completed GitHub Skills exercise (obsolete)
 
-⭐️ Congratulations GBOGEB! ⭐️
+<!-- markdownlint-disable MD001 MD013 MD022 MD029 MD031 MD032 MD033 MD040 MD060 -->
 
-You completed this exercise! Nice work! 🥳
+[![State: obsolete](https://img.shields.io/badge/state-obsolete-lightgrey?style=flat-square)](#6-status-and-open-gates)
+[![Visibility: public](https://img.shields.io/badge/visibility-public-lightgrey?style=flat-square)](#6-status-and-open-gates)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-If you would like to practice again, you can retrace your steps below. Just press the **Start Exercise** button again.
+> **This repository is obsolete. It holds GBOGEB's completed GitHub Skills "Introduction to GitHub" exercise from June 2025 and some early local experiments; nothing here is maintained or used by the federation.**
 
-> [!TIP]
-> Mona won't grade you this time! 😉
+## At a glance
 
+| | |
+|---|---|
+| **Domain** | Learning exercise: branches, commits, pull requests and merges, from the GitHub Skills course |
+| **EPICs carried here** | None. The exercise was completed on 5 Jun 2025. |
+| **Owner and decision authority** | Repository owner **GBOGEB**: admission to the default branch, releases and every external grant. No agent, bot or CI verdict holds this authority. |
+| **Role in the federation** | None. Kept for history only. |
+| **Owns** | The completed exercise and the course's step workflows |
+| **Does not own** | Any current tooling or data; active work lives in the [GBOGEB repositories](https://github.com/GBOGEB) |
+| **Status snapshot** | `main@8578b79`, read 15 November 2026 — 0 open issues, 0 open PRs. [Details ↓](#6-status-and-open-gates) |
 
- # Introduction to GitHub
+**New here?** Read [§1](#1-why-skills-introduction-to-github-exists--bios), then the route that matches you:
 
-_Get started using GitHub in less than an hour._
+| I want to… | Open this first |
+|---|---|
+| Find active GBOGEB work | [pipeline-automation-hub](https://github.com/GBOGEB/pipeline-automation-hub), [CODEX](https://github.com/GBOGEB/CODEX), [ABACUS](https://github.com/GBOGEB/ABACUS) |
+| Take the course yourself | [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) |
 
-## Welcome
+## 1. Why skills-introduction-to-github exists — BIOS
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+**B — Baseline.** Last content change 5 Jun 2025. No release.
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+**I — Identity and integrity.** Nothing here is versioned or receipted.
 
-In this exercise, you will:
+**O — Orchestration with ownership.** The course step workflows under `.github/workflows/` belong to the exercise.
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+**S — Safety and source-qualified status.** Do not build on or cite this repository.
 
-### How to start this exercise
+**Where authority lives:** none; the repository is obsolete.
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+## 2. From source to decision
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+1. The exercise is complete; there is no ongoing flow.
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/GBOGEB/skills-introduction-to-github/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+## 3. What is inside
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+| Block | Native source | Input → output | Boundary |
+|---|---|---|---|
+| Course steps | [`.github/steps/`](.github/steps/), [`.github/workflows/`](.github/workflows/) | Exercise events → next step | Course scaffolding only |
+| Early local experiments | Other root files | — | Unmaintained |
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+## 4. Where skills-introduction-to-github sits in the federation
 
-   <a id="start-exercise" href="https://github.com/GBOGEB/skills-introduction-to-github/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+| Neighbour | Keeps | Interface with skills-introduction-to-github |
+|---|---|---|
+| [pipeline-automation-hub](https://github.com/GBOGEB/pipeline-automation-hub) | Routing, JADE census, Mission Control | None |
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+## 5. Process diagrams
+
+No diagram: the repository has no process.
+
+## 6. Status and open gates
+
+**Snapshot: `main@8578b79`, read 15 November 2026.** Rows point at live owners; open the link for the current position.
+
+| Gate | Status | What would close it |
+|---|---|---|
+| State | **Obsolete**; last change 5 Jun 2025 | Owner archives the repository |
+
+## 7. Run it locally
+
+Nothing to run.
+
+## 8. Evidence rules and non-compensation
+
+- **Obsolete means not evidence**: nothing here supports a current claim.
+
+## 9. Repository map and next actions
+
+| Folder | Open it for |
+|---|---|
+| [`.github/`](.github/) | Course steps and workflows |
+
+**Next actions** (match §6): owner archives the repository.
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+BIOS: Baseline · Identity · Orchestration · Safety. Admission authority: **GBOGEB**. Licence: [MIT](LICENSE). Landing R2 on the [GEMINI skeleton](https://github.com/GBOGEB/GEMINI/blob/main/docs/landing/LANDING_SKELETON.md), snapshot `main@8578b79`.
