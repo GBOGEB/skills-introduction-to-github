@@ -6,14 +6,14 @@
 [![Visibility: public](https://img.shields.io/badge/visibility-public-lightgrey?style=flat-square)](#6-status-and-open-gates)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-> **This repository is obsolete. It holds GBOGEB's completed GitHub Skills "Introduction to GitHub" exercise from June 2025 and some early local experiments; nothing here is maintained or used by the federation.**
+> **This repository is obsolete. It holds GBOGEB's completed GitHub Skills "Introduction to GitHub" exercise (27 Apr 2025) and some early local experiments; nothing here is maintained or used by the federation.**
 
 ## At a glance
 
 | | |
 |---|---|
 | **Domain** | Learning exercise: branches, commits, pull requests and merges, from the GitHub Skills course |
-| **EPICs carried here** | None. The exercise was completed on 5 Jun 2025. |
+| **EPICs carried here** | None. The exercise was completed on 27 Apr 2025. |
 | **Owner and decision authority** | Repository owner **GBOGEB**: admission to the default branch, releases and every external grant. No agent, bot or CI verdict holds this authority. |
 | **Role in the federation** | None. Kept for history only. |
 | **Owns** | The completed exercise and the course's step workflows |
@@ -29,7 +29,7 @@
 
 ## 1. Why skills-introduction-to-github exists — BIOS
 
-**B — Baseline.** Last content change 5 Jun 2025. No release.
+**B — Baseline.** Exercise completed 27 Apr 2025; last content change 5 Jun 2025 (early experiments). No release.
 
 **I — Identity and integrity.** Nothing here is versioned or receipted.
 
@@ -66,7 +66,7 @@ No diagram: the repository has no process.
 
 | Gate | Status | What would close it |
 |---|---|---|
-| State | **Obsolete**; last change 5 Jun 2025 | Owner archives the repository |
+| State | **Obsolete**; exercise completed 27 Apr 2025, last change 5 Jun 2025 ([history](https://github.com/GBOGEB/skills-introduction-to-github/commits/main)) | Owner archives the repository |
 
 ## 7. Run it locally
 
